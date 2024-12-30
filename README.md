@@ -18,6 +18,8 @@ El objetivo es mostrar diferentes productos impresos en 3D y permitir a los usua
 2. Abre el archivo `index.html` en tu navegador.
 3. Asegúrate de tener conexión a Internet para Google Fonts y Formspree.
 
+Puedes acceder al sitio https://mitaller.ar/taller3d
+
 ## Autor (Héctor Tula)
 
 - Taller3D (Buenos Aires - Argentina)
