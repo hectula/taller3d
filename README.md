@@ -10,15 +10,14 @@ El objetivo es mostrar diferentes productos impresos en 3D y permitir a los usua
 - **Portada (Hero section)** y multimedia (video promocional).
 - **Manipulación del DOM** con JavaScript (mostrar/ocultar descripción, carrito de compras).
 - **Formulario de contacto** (Formspree).
+- Recibo de mensaje - formulario
+![image](https://github.com/user-attachments/assets/9ffd21e1-c508-4b6d-8232-2a6e2d1bd8a9)
+
 - **Control de versiones** con Git/GitHub (commits descriptivos).
 
 ## Cómo Ejecutarlo
 
-1. Clona o descarga este repositorio.
-2. Abre el archivo `index.html` en tu navegador.
-3. Asegúrate de tener conexión a Internet para Google Fonts y Formspree.
-
-Puedes acceder al sitio https://mitaller.ar/taller3d
+Podes acceder al sitio https://mitaller.ar/taller3d
 
 ## Autor (Héctor Tula)
 
