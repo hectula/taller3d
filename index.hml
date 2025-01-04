@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Taller3D en Buenos Aires - Impresiones 3D profesionales para prototipos y proyectos." />
+  <meta name="keywords" content="impresión 3D, Taller3D, Buenos Aires, prototipos, diseño 3D" />
+  <meta name="author" content="Taller3D - Buenos Aires" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Taller3D - Buenos Aires</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Logo Taller3D" class="logo" />
+      <h1>Taller3D</h1>
+      <p class="location">Altos de Podestá, Pablo Podestá (Buenos Aires, Argentina)</p>
+    </div>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#resenas">Reseñas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main id="inicio">
+    <!-- Hero Section (Portada) -->
+    <section class="hero-section">
+      <img src="images/portada.jpg" alt="Portada Taller3D" class="hero-image" />
+      <div class="hero-overlay">
+        <h2>Soluciones de Impresión 3D</h2>
+        <p>Diseña, imprime y da vida a tus ideas en 3D</p>
+      </div>
+    </section>
+
+    <!-- Sección Multimedia (Video Promocional) -->
+    <section id="multimedia" class="multimedia-section">
+      <h2>Conoce nuestro Taller3D</h2>
+      <video controls width="480">
+        <source src="videos/promo.mp4" type="video/mp4" />
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <!-- Sección Productos (Flexbox) -->
+    <section id="productos">
+      <h2>Productos Impresos en 3D</h2>
+      <div class="productos-container" id="productos-container">
+        <!-- Cards con ejemplos (puedes crear más) -->
+        <article class="card-producto">
+          <img src="images/producto1.jpg" alt="Llaveros impresos 3D" />
+          <h3>Figura de Acción</h3>
+          <p>$1500 ARS</p>
+          <button class="btn-agregar">Agregar al Carrito</button>
+          <div class="descripcion-oculta" style="display:none;">
+            <p>Figura de acción personalizada, ideal para coleccionistas.</p>
+          </div>
+        </article>
+
+        <article class="card-producto">
+          <img src="images/producto2.jpg" alt="Prototipo de pieza mecánica" />
+          <h3>Prototipo Mecánico</h3>
+          <p>$2000 ARS</p>
+          <button class="btn-agregar">Agregar al Carrito</button>
+          <div class="descripcion-oculta" style="display:none;">
+            <p>Pieza mecánica funcional para proyectos de ingeniería.</p>
+          </div>
+        </article>
+
+        <article class="card-producto">
+          <img src="images/producto3.jpg" alt="Piezas personalizadas" />
+          <h3>Llaveros Personalizados</h3>
+          <p>$500 ARS</p>
+          <button class="btn-agregar">Agregar al Carrito</button>
+          <div class="descripcion-oculta" style="display:none;">
+            <p>Llaveros a medida con tu logotipo o nombre.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Reseñas (Grid) -->
+    <section id="resenas" class="resenas-section">
+      <h2>Reseñas de Nuestros Clientes</h2>
+      <div class="grid-resenas" id="grid-resenas">
+        <article class="resena">
+          <h3>Juan Pérez</h3>
+          <p>Excelente servicio y atención. Mis prototipos quedaron perfectos.</p>
+        </article>
+        <article class="resena">
+          <h3>María García</h3>
+          <p>La calidad de impresión es notable. ¡Recomiendo 100% Taller3D!</p>
+        </article>
+        <article class="resena">
+          <h3>Pedro Alonso</h3>
+          <p>Necesitaba piezas a medida y me las entregaron en tiempo récord.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Carrito de Compras -->
+    <aside id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="cart-items">
+        <!-- Los ítems del carrito se inyectan dinámicamente con JS -->
+      </ul>
+      <p>Total: <span id="cart-total">0</span> ARS</p>
+      <button id="checkout-btn">Comprar</button>
+    </aside>
+  </main>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form 
+      action="https://formspree.io/f/movvlyba" 
+      method="POST"
+      id="contact-form"
+    >
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2024 Taller3D - Buenos Aires, Argentina</p>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="js/script.js"></script>
+</body>
+</html>
