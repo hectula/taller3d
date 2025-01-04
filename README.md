@@ -11,7 +11,8 @@ El objetivo es mostrar diferentes productos impresos en 3D y permitir a los usua
 - **Manipulación del DOM** con JavaScript (mostrar/ocultar descripción, carrito de compras).
 - **Formulario de contacto** (Formspree).
 - Recibo de mensaje - formulario
-![image](https://github.com/user-attachments/assets/9ffd21e1-c508-4b6d-8232-2a6e2d1bd8a9)
+
+![image](https://github.com/user-attachments/assets/a384f1f0-dd3c-46f7-a313-61d5e793393c)
 
 - **Control de versiones** con Git/GitHub (commits descriptivos).
 
