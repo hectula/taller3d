@@ -10,9 +10,16 @@ El objetivo es mostrar diferentes productos impresos en 3D y permitir a los usua
 - **Portada (Hero section)** y multimedia (video promocional).
 - **Manipulación del DOM** con JavaScript (mostrar/ocultar descripción, carrito de compras).
 - **Formulario de contacto** (Formspree).
-- Recibo de mensaje - formulario
+
+
+A continuación se muestra como se recibe por correo los mensajes sede el formulario:
+
+
 
 ![image](https://github.com/user-attachments/assets/a384f1f0-dd3c-46f7-a313-61d5e793393c)
+
+
+
 
 - **Control de versiones** con Git/GitHub (commits descriptivos).
 
